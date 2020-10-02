@@ -1,27 +1,16 @@
 import { nanoid } from 'nanoid';
+import Resume from '../resume.pdf';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
-};
-
-// HERO DATA
-export const heroData = {
-  title: 'Hi, my name is',
-  name: 'Abdullah Ansari',
-  subtitle: 'I am Web Developer',
-  cta: '',
+  title: 'Abdullah Ansari | Web Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'This is my portfolio website built using Gatsby, React, Bootstrap and Saas.', // e.g: Welcome to my website
 };
 
 // ABOUT DATA
 export const aboutData = {
-  // img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: Resume,
 };
 
 // PROJECTS DATA
@@ -59,7 +48,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ansariabdullahar@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +57,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/usr_abdullah',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/abdullah-ansari-375685124/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/AnsariAbdullah',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
