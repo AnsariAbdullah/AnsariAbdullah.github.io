@@ -30,15 +30,14 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  Experienced Frontend Web Developer with a demonstrated history of working in the
-                  computer software industry. Skilled in Front-end web technologies (HTML, CSS,
-                  JavaScript), Front-end frameworks (React.js, jQuery, Scss, Sass, Less,
-                  styled-components), Python, PHP, and Core Java.
+                  I am Abdullah Ansari. Building state-of-the-art, easy to use, user-friendly
+                  websites and applications is truly a passion of mine. I can efficiently code and
+                  build websites using HTML, CSS, React, styled-components, Saas, jQuery, LESS,
+                  Gulp.js and Bootstrap.
                 </p>
                 <p className="about-wrapper__info-text">
-                  Strong engineering professional with a Bachelor of Science - BS focused in
-                  Information Technology from K P B Hinduja College of Commerce. Currently exploring
-                  React World.
+                  I would like to be a part a reputed firm, where I can utilize my skills, knowledge
+                  &amp; talent.
                 </p>
                 {resume && (
                   <span className="mt-3">
