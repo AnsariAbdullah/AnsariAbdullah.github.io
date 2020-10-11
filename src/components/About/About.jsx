@@ -31,13 +31,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   I am Abdullah Ansari. Building state-of-the-art, easy to use, user-friendly
-                  websites and applications is truly a passion of mine. I can efficiently code and
-                  build websites using HTML, CSS, React, styled-components, Saas, jQuery, LESS,
-                  Gulp.js and Bootstrap.
+                  websites and applications is truly a passion of mine. I love spending time
+                  building side-projects. I can efficiently code and build websites using HTML, CSS,
+                  React, styled-components, Saas, jQuery, LESS, Gulp.js and Bootstrap.
                 </p>
                 <p className="about-wrapper__info-text">
                   I would like to be a part a reputed firm, where I can utilize my skills, knowledge
-                  &amp; talent.
+                  &amp; talent. Visit my GitHub account to check out some of my side projects apart
+                  from those listed below.
                 </p>
                 {resume && (
                   <span className="mt-3">
