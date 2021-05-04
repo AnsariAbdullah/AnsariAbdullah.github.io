@@ -33,7 +33,7 @@ const About = () => {
                   I am Abdullah Ansari. Building state-of-the-art, easy to use, user-friendly
                   websites and applications is truly a passion of mine. I love spending time
                   building side-projects. I can efficiently code and build websites using HTML, CSS,
-                  React, styled-components, Saas, jQuery, LESS, Gulp.js and Bootstrap.
+                  ReactJS, JavaScript, styled components, Scss, LESS, Gulp.js and Bootstrap.
                 </p>
                 <p className="about-wrapper__info-text">
                   I would like to be a part a reputed firm, where I can utilize my skills, knowledge

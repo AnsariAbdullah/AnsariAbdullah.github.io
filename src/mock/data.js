@@ -65,7 +65,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'codepen',
-      url: 'https://codepen.io/',
+      url: 'https://codepen.io/abdullah-desynova',
     },
     {
       id: nanoid(),
