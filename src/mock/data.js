@@ -27,24 +27,33 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'music-maker.png',
-    title: 'Music Maker',
-    info:
-      'Music Maker is built using HTML, CSS and Vanilla JavaScript. It creates music when tapped the tiles on the screen with little animation.',
+    img: 'tetris-game.png',
+    title: 'Tetris Game',
+    info: 'This is a tetris game made uisng HTML, CSS and vanilla JS',
     info2: '',
-    url: 'https://musicmaker.netlify.app/',
-    repo: 'https://github.com/AnsariAbdullah/music-maker', // if no repo, the button will not show up
+    url: 'https://mytetris.netlify.app/',
+    repo: 'https://github.com/AnsariAbdullah/tetris-game', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'cat-gif.png',
-    title: 'Cat Gif Generator',
-    info:
-      'Who does not likes see cute cat gifs. This websites is built using React and Scss. It fetches random cat gits so that you can spend time looking at cute cats doing funny things.',
-    info2: '',
-    url: 'https://cat-gif-generator.netlify.app/',
-    repo: 'https://github.com/AnsariAbdullah/react-random-cat-gif-generator', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'music-maker.png',
+  //   title: 'Music Maker',
+  //   info:
+  //     'Music Maker is built using HTML, CSS and Vanilla JavaScript. It creates music when tapped the tiles on the screen with little animation.',
+  //   info2: '',
+  //   url: 'https://musicmaker.netlify.app/',
+  //   repo: 'https://github.com/AnsariAbdullah/music-maker', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'cat-gif.png',
+  //   title: 'Cat Gif Generator',
+  //   info:
+  //     'Who does not likes see cute cat gifs. This websites is built using React and Scss. It fetches random cat gits so that you can spend time looking at cute cats doing funny things.',
+  //   info2: '',
+  //   url: 'https://cat-gif-generator.netlify.app/',
+  //   repo: 'https://github.com/AnsariAbdullah/react-random-cat-gif-generator', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
