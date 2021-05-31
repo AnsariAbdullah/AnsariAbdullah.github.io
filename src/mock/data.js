@@ -27,6 +27,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'hacker-news.png',
+    title: 'Hacker News',
+    info: 'Hacker News clone built React, axios, bootstrap, sass, react-router ',
+    info2: '',
+    url: 'https://hackerrr-news.netlify.app',
+    repo: 'https://github.com/AnsariAbdullah/hacker-news',
+  },
+  {
+    id: nanoid(),
     img: 'tetris-game.png',
     title: 'Tetris Game',
     info: 'This is a tetris game made uisng HTML, CSS and vanilla JS',
