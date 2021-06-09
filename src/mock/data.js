@@ -36,6 +36,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'book-list.png',
+    title: 'My Book List App',
+    info: 'Book list app made using Vanilla JS and bootstrap.',
+    info2: 'It uses local storage to store books and uses DOM manupulation.',
+    url: 'https://local-book-list.netlify.app/',
+    repo: 'https://github.com/AnsariAbdullah/book-list-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'tetris-game.png',
     title: 'Tetris Game',
     info: 'This is a tetris game made uisng HTML, CSS and vanilla JS',
