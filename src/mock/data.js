@@ -38,8 +38,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'book-list.png',
     title: 'My Book List App',
-    info: 'Book list app made using Vanilla JS and bootstrap.',
-    info2: 'It uses local storage to store books and uses DOM manupulation.',
+    info:
+      'Book list app made using Vanilla JS and bootstrap. It uses local storage to store books and uses DOM manupulation.',
+    info2: '',
     url: 'https://local-book-list.netlify.app/',
     repo: 'https://github.com/AnsariAbdullah/book-list-app', // if no repo, the button will not show up
   },
@@ -51,6 +52,16 @@ export const projectsData = [
     info2: '',
     url: 'https://mytetris.netlify.app/',
     repo: 'https://github.com/AnsariAbdullah/tetris-game', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'hulu-app.png',
+    title: 'Hulu App clone',
+    info: 'This is a hulu app clone built using Next.js and Tailswind and is deployed on vercel.',
+    info2: '',
+    url: 'https://hulu-wheat-psi.vercel.app/',
+    repo: 'https://github.com/AnsariAbdullah/hulu', // if no repo, the button will not show up
   },
   // {
   //   id: nanoid(),
