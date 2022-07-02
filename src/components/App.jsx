@@ -27,6 +27,10 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      {/* 
+				Add blogs section here. All blogs should be hosted 
+				on hasnode and just have tiles here on click of which user is redirected to hasnode
+			 */}
       <Contact />
       <Footer />
     </PortfolioProvider>
