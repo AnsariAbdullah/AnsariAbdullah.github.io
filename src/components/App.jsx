@@ -4,10 +4,11 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Blog from './Blog/Blog';
 
 import { PortfolioProvider } from '../context/context';
 
-import { aboutData, projectsData, contactData, footerData } from '../mock/data';
+import { aboutData, projectsData, contactData, footerData, blogsData } from '../mock/data';
 
 function App() {
   const [about, setAbout] = useState({});
@@ -27,10 +28,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      {/* 
-				Add blogs section here. All blogs should be hosted 
-				on hasnode and just have tiles here on click of which user is redirected to hasnode
-			 */}
+			<Blog data={blogsData} />
       <Contact />
       <Footer />
     </PortfolioProvider>

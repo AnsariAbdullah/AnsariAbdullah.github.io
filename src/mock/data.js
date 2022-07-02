@@ -13,6 +13,19 @@ export const aboutData = {
   resume: Resume,
 };
 
+// BLOGS DATA
+export const blogsData = [
+	{
+		id: 1,
+		title: 'Common inteview questions',
+		link: 'https://hashnode.com/'
+	},{
+		id: 2,
+		title: 'React Hooks',
+		link: 'https://hashnode.com/'
+	}
+]
+
 // PROJECTS DATA
 export const projectsData = [
   {
