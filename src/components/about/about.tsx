@@ -1,4 +1,4 @@
-import React from 'react';
+const resume = require('../../assets/abdullah_resume.pdf');
 
 type AboutProps = {
 	message: string;
@@ -6,7 +6,14 @@ type AboutProps = {
 
 const About = ({ message }: AboutProps) => {
 	return (
-		<div>This is the messge: {message}</div>
+		<div>
+			<p>This is the messge: {message}</p>
+			<a href={resume} rel="noopener noreferrer" target="_blank">
+				<button>
+					PDF
+				</button>
+			</a>
+		</div>
 	)
 };
 
