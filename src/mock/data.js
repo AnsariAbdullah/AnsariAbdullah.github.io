@@ -18,9 +18,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'recipie-app.png',
-    title: 'Get Healty',
+    title: 'Get Healthy',
     info:
-      'Get Healty is built using React and Scss. It takes value from the input box and fetches data of that keyword using an API. It also has filters.',
+      'Get Healthy is built using React and Scss. It takes value from the input box and fetches data of that keyword using an API. It also has filters.',
     info2: '',
     url: 'https://getmerecipe.netlify.app/',
     repo: 'https://github.com/AnsariAbdullah/recipe-app', // if no repo, the button will not show up
@@ -57,8 +57,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'hulu-app.png',
-    title: 'Hulu App clone',
-    info: 'This is a hulu app clone built using Next.js and Tailswind and is deployed on vercel.',
+    title: 'Hulu clone',
+    info: 'This is a hulu clone built using Next.js and Tailwind and is deployed on Vercel.',
     info2: '',
     url: 'https://hulu-wheat-psi.vercel.app/',
     repo: 'https://github.com/AnsariAbdullah/hulu', // if no repo, the button will not show up
