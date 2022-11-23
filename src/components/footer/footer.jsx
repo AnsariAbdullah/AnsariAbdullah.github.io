@@ -16,12 +16,14 @@ const FooterWrapper = styled.div`
 			flex-direction: column;
 			color: #fff;
 			font-size: 3rem;
-			/* width: 5rem;
-			height: 5rem; */
-			margin: 1.6rem;
+			margin: 1.8rem 2.1rem;
 			transition: all .2s ease-in;
 			&:hover{
-				transform: translateY(-2px);
+				transform: translateY(-5px);
+			}
+			img{
+				width: 3.3rem;
+				height: 3.3rem;
 			}
 		}
 	}
@@ -32,11 +34,11 @@ const Footer = () => {
 		<FooterWrapper>
 			<Container>
 				<div className='social-links'>
-					{footerData && footerData.map(item =>{
+					{footerData && footerData.map(item => {
 						const { id, name, url } = item;
 						return (
 							<a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
-								<p>{name}</p>
+								<img src={require(`../../assets/icons/${name}.svg`)} alt={`${name}-icon`} />
 							</a>
 						);
 					})}
@@ -45,5 +47,5 @@ const Footer = () => {
 		</FooterWrapper>
 	);
 }
- 
+
 export default Footer;
