@@ -1,48 +1,37 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, CtaButton } from '../../styles/common'
+import { Fade } from '../../styles/animation';
+import { Container, CtaButton } from '../../styles/common';
 
 const HeaderWrapper = styled.section`
-    min-height: 100vh;
-		height: 100vh;
-		display: flex;
-		align-items: center;
-		border-bottom: 0;
-		background: #fff;
-		font-weight: 400;
-		color: #272341;
-		padding: 0 5.6rem;
-		margin-bottom: 0;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		z-index: -1;
-		font-size: 40px;
-	.text-color-main{
-		background-image: linear-gradient(135deg,#02aab0,#00cdac);
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+	min-height: 100vh;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	border-bottom: 0;
+	background: #fff;
+	font-weight: 400;
+	color: #272341;
+	padding: 0 5.6rem;
+	margin-bottom: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	font-size: 40px;
+	h1{
+		font-size: 4rem;
+		.text-color-main{
+			font-size: 4rem;
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-image: linear-gradient(135deg,#02aab0,#00cdac);
+		}
 	}
 `
 
-const Fade = styled.div`
-  left: 0px;
-	position: relative;
-	animation-name: slide;
-	animation-duration: 1s;
-  transition: all 550ms cubic-bezier(0.02, 0.01, 0.47, 1);
-	/* color: ${props =>
-		props.side == 'left' ? 'left' :
-			props.variant == 'right' ? 'right' :
-				''
-	}; */
-	@keyframes slide {
-		from { transform: translateX(-2rem); opacity: 0; }
-		to { transform: translateX(0rem); opacity: 1; }
-	}
-`
 
 
 const Header = () => {
@@ -57,7 +46,7 @@ const Header = () => {
 					</h1>
 				</Fade>
 				<Fade>
-					<p className="hero-cta">
+					<p className="hero-cta" style={{display: 'flex'}}>
 						<CtaButton className="cta-btn cta-btn--hero">
 							{/* <Link to="about" smooth duration={1000}>
               </Link> */}
