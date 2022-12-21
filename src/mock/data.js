@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import Resume from '../resume.pdf';
+import Resume from '../assets/abdullah_resume.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -93,27 +93,25 @@ export const contactData = {
 };
 
 // FOOTER DATA
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/usr_abdullah',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: 'https://codepen.io/abdullah-desynova',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/abdullah-ansari-375685124/',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/AnsariAbdullah',
-    },
-  ],
-};
+export const footerData = [
+	{
+		id: 1,
+		name: 'twitter',
+		url: 'https://twitter.com/usr_abdullah',
+	},
+	{
+		id: 2,
+		name: 'codepen',
+		url: 'https://codepen.io/abdullah-desynova',
+	},
+	{
+		id: 3,
+		name: 'linkedin',
+		url: 'https://www.linkedin.com/in/abdullah-ansari-375685124/',
+	},
+	{
+		id: 4,
+		name: 'github',
+		url: 'https://github.com/AnsariAbdullah',
+	},
+]

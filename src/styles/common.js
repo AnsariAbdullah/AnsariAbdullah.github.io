@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colors } from './variables';
 
 const Container = styled.div`
 	width: 100%;
@@ -6,6 +7,9 @@ const Container = styled.div`
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	@media (min-width: 1200px){
+		max-width: 1140px;
+	}
 	@media (max-width: 992px){
 		max-width: 960px;
 	}
@@ -24,10 +28,26 @@ const CtaButton = styled.button`
 	-webkit-text-fill-color: transparent;
 	border-width: 2px;
 	border-style: solid;
-	border-image: linear-gradient(135deg,#02aab0,#00cdac);
 	-o-border-image: linear-gradient(135deg,#02aab0,#00cdac);
+	border-image: linear-gradient(135deg,#02aab0,#00cdac);
 	border-image-slice: 1;
 	cursor: pointer;
+`
+
+const SectionTitle = styled.h2`
+	text-align: center;
+	margin: 0 0 4.5rem;
+	font-size: 4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+`
+
+const LinkButton = styled.a`
+	font-size: 1.6rem;
+	color: ${colors.white};
+	text-decoration: none;
+	margin-top: 1rem;
+	border: 2px solid ${colors.white};
 	display: inline-block;
 	position: relative;
 	padding: 0.8rem 1.6rem;
@@ -35,25 +55,6 @@ const CtaButton = styled.button`
 	line-height: 1;
 	z-index: 1;
 	transition: all .6s cubic-bezier(.19,1,.22,1);
-	&:hover {
-    -webkit-text-fill-color: #fff;
-    text-decoration: none;
-	}
-	&::after{
-		background-image: linear-gradient(135deg,#02aab0,#00cdac);
-		content: "";
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: all .3s cubic-bezier(.19,1,.22,1);
-		&:hover{
-			width: 100%;
-		}
-	}
 `
 
-export { Container, CtaButton };
+export { Container, CtaButton, LinkButton, SectionTitle };

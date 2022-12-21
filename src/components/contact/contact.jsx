@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { colors } from '../../styles/variables';
-import { Container, LinkButton } from '../../styles/common';
+import { Container, LinkButton, SectionTitle } from '../../styles/common';
 
 const ContactWrapper = styled.section`
 	background-color: #02aab0;
@@ -14,13 +14,6 @@ const ContactWrapper = styled.section`
 	margin-top: -15rem;
 	margin-bottom: -1px;
 	color: #fff;
-	.section-title{
-		text-align: center;
-		margin: 0 0 4.5rem;
-    font-size: 4rem;
-    font-weight: 700;
-    text-transform: uppercase;
-	}
 	.info-text{
 		text-align: center;
 		font-size: 2.4rem;
@@ -37,7 +30,7 @@ const Contact = () => {
 	return (
 		<ContactWrapper>
 			<Container>
-				<h2 className='section-title'>Contact</h2>
+				<SectionTitle className='section-title'>Contact</SectionTitle>
 				<p className='info-text'>
 					Would you like to work with me? Awesome!
 				</p>

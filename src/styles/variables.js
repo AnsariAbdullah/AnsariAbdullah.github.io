@@ -1,26 +1,7 @@
-import { blackAlpha } from './utils';
 
 const colors = {
-  white: '#FFF',
-
-  // error
-  error: '#ff6c56',
-
-  // Blue
-  blue: {
-    primary: '#2c86ff',
-    secondary: '#559eff',
-    navy: '#0c1d33',
-    shadeOne: '#6faaff',
-  },
-
-  // Black
-  black: {
-    default: '#000',
-    main: '#121212',
-    primary: blackAlpha(0.5),
-    secondary: blackAlpha(0.4),
-  },
+  white: '#fff',
+	black: '#333',
 };
 
 const padding = {
