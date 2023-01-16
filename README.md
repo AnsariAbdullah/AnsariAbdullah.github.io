@@ -70,5 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
  -->
 
-For blogs section use this design with blog color
+- For blogs section use this design with blog color
 ![Screen shot](./blog-section-example/img.png)
+
+- Also add a contact form which when submit sends the content on email to me. Use EmailJS
