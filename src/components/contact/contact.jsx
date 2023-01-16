@@ -13,7 +13,7 @@ const ContactWrapper = styled.section`
 	padding: 15rem 0 10rem;
 	margin-top: -15rem;
 	margin-bottom: -1px;
-	color: #fff;
+	color: ${colors.white};
 	.info-text{
 		text-align: center;
 		font-size: 2.4rem;
@@ -35,9 +35,13 @@ const Contact = () => {
 					Would you like to work with me? Awesome!
 				</p>
 				<div className='button-wrapper'>
-					<LinkButton className='linnkButton' href="mailto:ansariabdullahar@gmail.com" target="_blank">
+					<LinkButton
+						className='linkButton'
+						href="mailto:ansariabdullahar@gmail.com"
+						target="_blank"
+					>
 						Let's Talk
-					</LinkButton>
+					</ LinkButton>
 				</div>
 			</Container>
 		</ContactWrapper>

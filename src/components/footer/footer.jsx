@@ -14,7 +14,7 @@ const FooterWrapper = styled.div`
     justify-content: center;
 		a {
 			flex-direction: column;
-			color: #fff;
+			color: ${colors.white};
 			font-size: 3rem;
 			margin: 1.8rem 2.1rem;
 			transition: all .2s ease-in;

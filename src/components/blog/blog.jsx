@@ -32,7 +32,16 @@ const Card = styled.div`
 	font-size: 2rem;
 	align-items: center;
 	justify-content: center;
-
+	flex-direction: column;
+	text-align: center;
+	a{
+		background: #ebf5ff;
+    color: #078ae6;
+		text-decoration: none;
+		margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 14px;
+	}
 `
 
 
@@ -45,10 +54,21 @@ const Blog = () => {
 			<Container className="grid-box">
 				{Array.from(new Array(4)).map((item, i) =>
 					<Card className="class" key={`blog-card-${i}`}>
-						This is blog card
+						<h3>Using objects as key/value storage</h3>
+						<p>
+						A journey of transitioning from JavaScript to TypeScript to learning testing library and becoming the star performing team member.
+						</p>
+						<a href="google.com" alt="google">
+							Read
+						</a>
 					</Card>
 				)}
+
 			</Container>
+			<button>
+				Read all 
+				<svg data-name="1-Arrow Up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="m26.71 10.29-10-10a1 1 0 0 0-1.41 0l-10 10 1.41 1.41L15 3.41V32h2V3.41l8.29 8.29z"/></svg>
+			</button>
 		</BlogWrapper>
 	);
 }

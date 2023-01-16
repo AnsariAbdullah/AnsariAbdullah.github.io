@@ -5,8 +5,8 @@ import { colors } from '../../styles/variables';
 import { Container, LinkButton, SectionTitle } from '../../styles/common';
 
 const AboutWrapper = styled.section`
-	background-color: #02aab0;
-	background-image: linear-gradient(135deg,#02aab0,#00cdac);
+	background-color: ${colors.primary};
+	background-image: linear-gradient(135deg, ${colors.primary}, ${colors.secondary});
 	color: ${colors.white};
 	height: 100%;
 	border-top: 0;
@@ -37,7 +37,12 @@ const About = () => {
 					I would like to be a part a reputed firm, where I can utilize my skills, knowledge &amp; talent. Visit my GitHub account to check out some of my side projects apart from those listed below.
 				</p>
 				<div className='button-wrapper'>
-					<LinkButton className='linnkButton' href={resume} rel="noopener noreferrer" target="_blank">
+					<LinkButton 
+						className='linkButton' 
+						href={resume} 
+						rel="noopener noreferrer" 
+						target="_blank"
+					>
 						Resume
 					</LinkButton>
 				</div>

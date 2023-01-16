@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Fade } from '../../styles/animation';
 import { Container, CtaButton } from '../../styles/common';
+import { colors } from '../../styles/variables';
 
 const HeaderWrapper = styled.section`
 	min-height: 100vh;
@@ -9,7 +10,7 @@ const HeaderWrapper = styled.section`
 	display: flex;
 	align-items: center;
 	border-bottom: 0;
-	background: #fff;
+	background: ${colors.white};
 	font-weight: 400;
 	color: #272341;
 	padding: 0 5.6rem;

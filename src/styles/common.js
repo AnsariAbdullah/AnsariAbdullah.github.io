@@ -22,7 +22,7 @@ const Container = styled.div`
 `;
 
 const CtaButton = styled.button`
-	background-image: linear-gradient(135deg,#02aab0,#00cdac);
+	/* background-image: linear-gradient(135deg,#02aab0,#00cdac);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -31,7 +31,21 @@ const CtaButton = styled.button`
 	-o-border-image: linear-gradient(135deg,#02aab0,#00cdac);
 	border-image: linear-gradient(135deg,#02aab0,#00cdac);
 	border-image-slice: 1;
-	cursor: pointer;
+	cursor: pointer; */
+	background-image: linear-gradient(135deg,#02aab0,#00cdac);
+	color: #fff;
+	border: none;
+	padding: 0.8rem 1.6rem;
+	font-weight: 700;
+	z-index: 1;
+	font-size: 2.4rem;
+	font-family: Montserrat, sans-serif;
+	margin-top: 10px;
+	transition: box-shadow 200ms ease, transform 200ms ease;
+	&:hover{
+		transform: translate(4px, -4px);
+		box-shadow: -8px 8px 0 #272341;
+	}
 `
 
 const SectionTitle = styled.h2`
@@ -54,7 +68,13 @@ const LinkButton = styled.a`
 	font-weight: 700;
 	line-height: 1;
 	z-index: 1;
-	transition: all .6s cubic-bezier(.19,1,.22,1);
+	transition: all 300ms ease;
+	&:hover{
+		transform: translate(0, -2px);
+		padding: 0.8rem 2.5rem;
+		background-color: ${colors.white};
+		color: #02aab0;
+	}
 `
 
 export { Container, CtaButton, LinkButton, SectionTitle };
